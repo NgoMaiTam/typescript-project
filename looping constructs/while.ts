@@ -1,7 +1,8 @@
 let count = 0;
 
 while (count < 3) {
-  console.log("Đếm:", count);
-  count++; // Quan trọng: Đảm bảo điều kiện cuối cùng sẽ trở thành false để tránh lặp vô hạn
+  console.log("Count:", count);
+  count++; // Important: Ensure the condition eventually becomes false to avoid an infinite loop
 }
-console.log("Kết thúc vòng lặp"); // Thêm dòng này để in ra kết quả
+
+console.log("End of loop"); // Add this line to print the result

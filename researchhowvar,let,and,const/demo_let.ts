@@ -3,6 +3,7 @@ function demoLet() {
         let y = 20;
         console.log(y); // ✅ 20
     }
-    // console.log(y); // ❌ lỗi: y không tồn tại ngoài block
+    // console.log(y); // ❌ Error: y does not exist outside this block
 }
-demoLet(); // Gọi hàm để thấy kết quả
+
+demoLet(); // Call the function to see the result

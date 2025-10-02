@@ -1,5 +1,6 @@
-// Lặp từ 0 đến 4
+// Loop from 0 to 4
 for (let i = 0; i < 5; i++) {
-  console.log("Số:", i);
+  console.log("Number:", i);
 }
-console.log("Kết thúc vòng lặp"); // Thêm dòng này để in ra kết quả
+
+console.log("End of loop"); // Add this line to print the result

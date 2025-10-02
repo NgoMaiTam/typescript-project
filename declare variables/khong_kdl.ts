@@ -1,12 +1,13 @@
-// TypeScript suy luận 'greeting' là kiểu string
-let greeting = "Xin chào!";
+// TypeScript infers 'greeting' as a string type
+let greeting = "Hello!";
 
-// TypeScript suy luận 'age' là kiểu number
+// TypeScript infers 'age' as a number type
 let age = 30;
 
-// TypeScript suy luận 'is_logged_in' là kiểu boolean
+// TypeScript infers 'is_logged_in' as a boolean type
 let is_logged_in = false;
 
-// TypeScript suy luận 'fruits' là kiểu string[] (mảng chuỗi)
+// TypeScript infers 'fruits' as a string[] (array of strings)
 let fruits = ["apple", "banana", "orange"];
-console.log(fruits); // Thêm dòng này để in ra kết quả
+
+console.log(fruits); // Add this line to print the result

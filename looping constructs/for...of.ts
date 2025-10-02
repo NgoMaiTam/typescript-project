@@ -1,7 +1,8 @@
 const colors: string[] = ["red", "green", "blue"];
 
-// Lặp qua từng giá trị trong mảng
+// Loop through each value in the array
 for (const color of colors) {
-  console.log("Màu sắc:", color);
+  console.log("Color:", color);
 }
-console.log("Kết thúc vòng lặp"); // Thêm dòng này để in ra kết quả
+
+console.log("End of loop"); // Add this line to print the result

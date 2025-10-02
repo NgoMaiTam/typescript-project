@@ -1,12 +1,13 @@
-// Khai báo biến kiểu chuỗi
-let message: string = "Chào thế giới!";
+// Declare a string variable
+let message: string = "Hello world!";
 
-// Khai báo biến kiểu số
+// Declare a number variable
 let count: number = 10;
 
-// Khai báo biến kiểu boolean
+// Declare a boolean variable
 let is_loading: boolean = true;
 
-// Khai báo một mảng các số
+// Declare an array of numbers
 let numbers: number[] = [1, 2, 3];
-console.log(message); // Thêm dòng này để in ra kết quả
+
+console.log(message); // Add this line to print the result
