@@ -11,3 +11,4 @@ let is_loading: boolean = true;
 let numbers: number[] = [1, 2, 3];
 
 console.log(message); // Add this line to print the result
+
