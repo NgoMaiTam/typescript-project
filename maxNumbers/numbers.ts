@@ -4,8 +4,7 @@ function findMaxNumber(numbers: number[]): number {
         throw new Error("Array is empty. Cannot find the max.");
     }
 
-    let max: number = numbers[0]!; // Non-null assertion to ensure not undefined
-
+    let max: number =  -Infinity
     for (let i = 1; i < numbers.length; i++) {
         if (numbers[i]! > max) {   // Non-null assertion for numbers[i]
             max = numbers[i]!;
